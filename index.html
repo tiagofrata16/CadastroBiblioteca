@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário Cadastro</title> 
+</head>
+<body>
+    <div class="container">
+        <div class="imagem">
+            <img src="img/undraw_winter_skating_re_qouk.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-cabecalho">
+                    <div class="form-title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="entrar-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="infoIniciais">
+                    <div class="infoIniciais-input">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firstname" type="text" name="firstname"
+                         placeholder="Digite seu primeiro nome" required>
+                    </div>
+                    <div class="infoIniciais-input">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname"
+                         placeholder="Digite seu sobrenome" required>
+                    </div>
+                    <div class="infoIniciais-input">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email"
+                         placeholder="Digite seu email" required>
+                    </div>
+                    <div class="infoIniciais-input">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number"
+                         placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+                </div>
+                <div class="genero">
+                    <div class="cabecalho-genero">
+                        <h6>Selecione seu gênero</h6>
+                    </div>
+                    <div class="genero-grupo">
+                        <div class="genero-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+                        <div class="genero-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+                        <div class="genero-input">
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">Feminino</label>
+                        </div>
+                        <div class="genero-input">
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="tipoLivro">
+                    <div class="cabecalho-tipoLivro">
+                        <h6>Selecione seu(s) tipo(s) de livro favorito(s)</h6>
+                    </div>
+                    <div class="tipoLivro-grupo">
+                        <div class="tipoLivro-input">
+                            <input type="checkbox" id="romance" name="tipoLivro">
+                            <label for="romance">Romance</label>
+                        </div>
+                        <div class="tipoLivro-input" id="aventura-div">
+                            <input type="checkbox" id="aventura" name="tipoLivro">
+                            <label for="aventura">Aventura</label>
+                        </div>
+                        <div class="tipoLivro-input">
+                            <input type="checkbox" id="terror" name="tipoLivro">
+                            <label for="terror">Terror</label>
+                        </div>
+                        <div class="tipoLivro-input">
+                            <input type="checkbox" id="misterio" name="tipoLivro">
+                            <label for="misterio">Mistério</label>
+                        </div>
+                        <div class="tipoLivro-input" id="ficcao-div">
+                            <input type="checkbox" id="ficcao" name="tipoLivro">
+                            <label for="ficcao">Ficção Científica</label>
+                        </div>
+                        <div class="tipoLivro-input">
+                            <input type="checkbox" id="poemas" name="tipoLivro">
+                            <label for="poemas">Poemas</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="continue-button">
+                <button><a href="./contCadastro.html">Continuar</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

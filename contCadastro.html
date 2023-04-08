@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conclusao">
+        <form action="#">
+            <div class="infoPessoais">
+                <!-- INFORMACOES PESSOAIS -->
+                <div class="infoPessoais-input">
+                    <label for="rg">RG</label>
+                    <input id="rg" type="text" name="rg"
+                     placeholder="Digite seu RG" required>
+                </div>
+                <div class="infoPessoais-input">
+                    <label for="cpf">CPF</label>
+                    <input id="cpf" type="text" name="cpf"
+                     placeholder="Digite seu CPF" required>
+                </div>
+                <div class="infoPessoais-input">
+                    <label for="endereco">Endereço</label>
+                    <input id="endereco" type="text" name="endereco"
+                     placeholder="Digite seu Endereço" required>
+                </div>
+                <div class="infoPessoais-input">
+                    <label for="cidade">Cidade</label>
+                    <input id="cidade" type="text" name="cidade"
+                     placeholder="Digite sua cidade" required>
+                </div>
+            </div>
+                <!-- CONCORDANCIA COM TERMO DE POLITICA E PRIVACIDADE -->
+            <div class="termos">
+                <div class="cabecalho-termos">
+                    <h6>Política de Privacidade</h6>
+                </div>
+                <div class="termos-grupo">
+                    <div class="termos-input">
+                        <input type="checkbox" id="termosCondicoes" name="termosCondicoes" required>
+                        <a href="#">Aceito os Termos e Condições</a>
+                    </div>
+                    <div class="termos-input">
+                        <input type="checkbox" id="politicaDados" name="politicaDados" required>
+                        <a href="#">Aceito a Política de Uso de Dados</a>
+                    </div>
+                </div>
+            </div>
+                    <!-- DEFINICAO DA SENHA -->
+            <div class="password">
+                <div class="password-input">
+                    <label for="password">Senha</label>
+                    <input id="password" type="password" name="password"
+                    placeholder="Digite sua senha" required>
+                </div>
+                <div class="password-input">
+                    <label for="confirmPassword">Confirme sua senha</label>
+                    <input id="confirmPassword" type="password" name="confirmPassword"
+                    placeholder="Confirme sua senha" required>
+                </div>
+            </div>
+            <div class="concluir-button">
+                <button><a href="#">Concluir</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
