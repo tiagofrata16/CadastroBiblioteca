@@ -188,9 +188,10 @@ body {
     color: #000000c0;
 }
 
-.tipoLivro-grupo {
-    padding: 0.62rem 0.5rem 0;
-
+.tipoLivro-input {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
 }
 
 #aventura-div {
@@ -201,7 +202,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 1rem 0.5rem;
 }
 
 .tipoLivro-input label {
@@ -263,10 +264,16 @@ body {
         flex-direction: column;
         padding-right: 5rem;
     }
+
+    .infoIniciais {
+        padding-bottom: 0;
+    }
+
     #aventura-div {
         margin: 0 0;
         margin-top: 0.5rem;
     }
+
      .genero-grupo, .tipoLivro-grupo{ 
         flex-direction: column;
     }
@@ -279,7 +286,10 @@ body {
     .container, .conclusao {
         width: 90%;
     }
+    .form {
+        padding: 1rem;
+    }
     .infoIniciais, .infoPessoais, .password {
-        padding-right: 2rem;
+        padding-right: 3rem;
     }
 }
