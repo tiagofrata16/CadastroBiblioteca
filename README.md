@@ -1,2 +1,2 @@
 # CadastroBiblioteca
-Se trata de um site para as cadastro em uma biblioteca, que contém responsividade.
+Se trata de um site para o cadastro em uma biblioteca, que contém responsividade.
